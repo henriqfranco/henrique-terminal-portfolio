@@ -1,7 +1,7 @@
-import { PortfolioShell } from './components/layout/PortfolioShell'
+import { PortfolioShell } from "./components/layout/PortfolioShell";
 
 function App() {
-  return <PortfolioShell />
+  return <PortfolioShell />;
 }
 
-export default App
+export default App;

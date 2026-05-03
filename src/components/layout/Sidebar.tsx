@@ -1,12 +1,16 @@
-import type { PortfolioSection, Profile, SectionKey } from '../../types/portfolio'
+import type {
+  PortfolioSection,
+  Profile,
+  SectionKey,
+} from "../../types/portfolio";
 
 type SidebarProps = {
-  activeSection: SectionKey
-  lastUpdated: string
-  onSectionSelect: (sectionKey: SectionKey) => void
-  profile: Profile
-  sections: PortfolioSection[]
-}
+  activeSection: SectionKey;
+  lastUpdated: string;
+  onSectionSelect: (sectionKey: SectionKey) => void;
+  profile: Profile;
+  sections: PortfolioSection[];
+};
 
 export function Sidebar({
   activeSection,
@@ -42,27 +46,29 @@ export function Sidebar({
         <div className="nav-section-label">NAVIGATE</div>
 
         {sections.map((section, index) => {
-          const isActive = section.key === activeSection
+          const isActive = section.key === activeSection;
 
           return (
             <button
-              aria-current={isActive ? 'page' : undefined}
-              className={isActive ? 'nav-item active' : 'nav-item'}
+              aria-current={isActive ? "page" : undefined}
+              className={isActive ? "nav-item active" : "nav-item"}
               key={section.key}
               onClick={() => onSectionSelect(section.key)}
               type="button"
             >
-              <span className="nav-prefix">{String(index + 1).padStart(2, '0')}</span>
+              <span className="nav-prefix">
+                {String(index + 1).padStart(2, "0")}
+              </span>
               {section.label}
               <span className="nav-arrow" aria-hidden="true">
                 ›
               </span>
             </button>
-          )
+          );
         })}
       </nav>
 
       <div className="sidebar-footer">LAST UPDATED: {lastUpdated}</div>
     </aside>
-  )
+  );
 }

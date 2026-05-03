@@ -1,8 +1,8 @@
-import type { PortfolioSection } from '../../types/portfolio'
+import type { PortfolioSection } from "../../types/portfolio";
 
 type StatusBarProps = {
-  currentSection: PortfolioSection
-}
+  currentSection: PortfolioSection;
+};
 
 export function StatusBar({ currentSection }: StatusBarProps) {
   return (
@@ -21,5 +21,5 @@ export function StatusBar({ currentSection }: StatusBarProps) {
         <span>portfolio.sh</span>
       </div>
     </div>
-  )
+  );
 }

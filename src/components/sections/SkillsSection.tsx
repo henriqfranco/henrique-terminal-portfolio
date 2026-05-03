@@ -1,5 +1,5 @@
-import { sectionByKey, skills } from '../../data/portfolio'
-import { SectionFrame } from '../ui/SectionFrame'
+import { sectionByKey, skills } from "../../data/portfolio";
+import { SectionFrame } from "../ui/SectionFrame";
 
 export function SkillsSection() {
   return (
@@ -22,5 +22,5 @@ export function SkillsSection() {
         </div>
       ))}
     </SectionFrame>
-  )
+  );
 }

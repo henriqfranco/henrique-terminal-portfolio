@@ -1,8 +1,8 @@
-import type { Entry } from '../../types/portfolio'
+import type { Entry } from "../../types/portfolio";
 
 type EntryListProps = {
-  entries: Entry[]
-}
+  entries: Entry[];
+};
 
 export function EntryList({ entries }: EntryListProps) {
   return (
@@ -22,5 +22,5 @@ export function EntryList({ entries }: EntryListProps) {
         </article>
       ))}
     </>
-  )
+  );
 }

@@ -9,5 +9,5 @@ export function TitleBar() {
       <div className="titlebar-title">portfolio.sh — 1120×100vh</div>
       <div className="titlebar-right">UTF-8</div>
     </div>
-  )
+  );
 }

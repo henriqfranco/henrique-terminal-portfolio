@@ -1,6 +1,6 @@
 type CommandPromptProps = {
-  command: string
-}
+  command: string;
+};
 
 export function CommandPrompt({ command }: CommandPromptProps) {
   return (
@@ -9,5 +9,5 @@ export function CommandPrompt({ command }: CommandPromptProps) {
       <span className="cmd">{command}</span>
       <span className="cursor" aria-hidden="true" />
     </div>
-  )
+  );
 }

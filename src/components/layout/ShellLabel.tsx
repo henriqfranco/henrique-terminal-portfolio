@@ -5,5 +5,5 @@ export function ShellLabel() {
       <span className="shell-label-muted">—</span>
       <span className="shell-label-muted">bash</span>
     </div>
-  )
+  );
 }

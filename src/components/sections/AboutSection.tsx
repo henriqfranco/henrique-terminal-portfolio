@@ -1,5 +1,5 @@
-import { aboutInfo, aboutIntro, sectionByKey } from '../../data/portfolio'
-import { SectionFrame } from '../ui/SectionFrame'
+import { aboutInfo, aboutIntro, sectionByKey } from "../../data/portfolio";
+import { SectionFrame } from "../ui/SectionFrame";
 
 export function AboutSection() {
   return (
@@ -18,12 +18,16 @@ export function AboutSection() {
         {aboutInfo.map((item) => (
           <div className="info-cell" key={item.label}>
             <div className="info-label">{item.label}</div>
-            <div className={item.isSuccess ? 'info-value info-value-success' : 'info-value'}>
+            <div
+              className={
+                item.isSuccess ? "info-value info-value-success" : "info-value"
+              }
+            >
               {item.value}
             </div>
           </div>
         ))}
       </div>
     </SectionFrame>
-  )
+  );
 }

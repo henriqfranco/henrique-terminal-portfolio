@@ -1,13 +1,13 @@
-import type { RefObject } from 'react'
+import type { RefObject } from "react";
 
-import type { PortfolioSection, SectionKey } from '../../types/portfolio'
-import { ActiveSection } from '../sections/ActiveSection'
+import type { PortfolioSection, SectionKey } from "../../types/portfolio";
+import { ActiveSection } from "../sections/ActiveSection";
 
 type ContentPanelProps = {
-  activeSection: SectionKey
-  contentBodyRef: RefObject<HTMLDivElement | null>
-  currentSection: PortfolioSection
-}
+  activeSection: SectionKey;
+  contentBodyRef: RefObject<HTMLDivElement | null>;
+  currentSection: PortfolioSection;
+};
 
 export function ContentPanel({
   activeSection,
@@ -29,5 +29,5 @@ export function ContentPanel({
         <ActiveSection activeSection={activeSection} />
       </div>
     </main>
-  )
+  );
 }
