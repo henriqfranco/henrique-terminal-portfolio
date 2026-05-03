@@ -809,8 +809,17 @@
 }
 
 @media (max-width: 720px) {
+    body {
+        overflow-x: hidden;
+        overflow-y: auto;
+    }
+
     #root {
+        height: auto;
+        min-height: 100vh;
+        min-height: 100dvh;
         font-size: 16px;
+        overflow: visible;
         padding: 0 0.75rem;
     }
 
@@ -821,11 +830,13 @@
     }
 
     .portfolio {
+        flex: none;
         min-height: 0;
-        overflow: hidden;
+        overflow: visible;
     }
 
     .inner {
+        height: auto;
         flex-direction: column;
     }
 
@@ -865,7 +876,9 @@
     }
 
     .content-body {
+        flex: none;
         min-height: 0;
+        overflow: visible;
         padding: 1.3rem;
     }
 

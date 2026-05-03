@@ -125,6 +125,18 @@ export const experience: Entry[] = [
       "Participate in weekly monitoring meetings to share progress, align demands, and present developed features.",
     ],
   },
+  {
+    title: "Electronics Laboratory Intern",
+    date: "MAR 2023 — AUG 2023",
+    organization: "Instituto de Cultura Técnica - ICT",
+    bullets: [
+      "Supported electronics laboratory activities, contributing to practical classes and experiments.",
+      "Performed preventive and corrective maintenance on electronic components and circuits.",
+      "Assembled, tested, and calibrated electronic circuits and bench devices using instruments such as multimeters and oscilloscopes.",
+      "Organized laboratory materials, tools, and equipment to support a safe and efficient work environment.",
+      "Monitored digital and analog electronics and electricity classes, providing technical support to students during practical activities.",
+    ],
+  },
 ];
 
 export const education: Entry[] = [
