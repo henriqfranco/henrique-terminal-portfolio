@@ -1,7 +1,7 @@
 # Terminal Portfolio
 
-React, TypeScript, Vite, and Tailwind CSS implementation of the terminal-style
-portfolio reference.
+React, TypeScript, Vite, and Tailwind CSS implementation of a terminal-style
+portfolio.
 
 ## Run
 
@@ -9,6 +9,31 @@ portfolio reference.
 npm install
 npm run dev
 ```
+
+## Run With Docker
+
+Build the production image and run it in a container:
+
+```bash
+docker compose up -d --build
+```
+
+Open the app at `http://localhost:8080`.
+
+View logs:
+
+```bash
+docker compose logs -f
+```
+
+Stop and remove the container:
+
+```bash
+docker compose down
+```
+
+This Docker setup builds the Vite app inside a Node container, then serves the
+generated `dist/` files with nginx.
 
 ## Project Structure
 
