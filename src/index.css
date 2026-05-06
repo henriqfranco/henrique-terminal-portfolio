@@ -81,7 +81,7 @@
         flex-direction: column;
         align-items: center;
         justify-content: flex-start;
-        font-size: 17px;
+        font-size: 18px;
         overflow: hidden;
         padding: 0 1rem;
     }
@@ -259,7 +259,7 @@
     .dev-name {
         margin-bottom: 0.25rem;
         color: var(--white);
-        font-size: 0.78rem;
+        font-size: 0.84rem;
         font-weight: 700;
         letter-spacing: 1px;
         text-align: center;
@@ -267,7 +267,7 @@
 
     .dev-title {
         color: var(--purple-bright);
-        font-size: 0.6rem;
+        font-size: 0.65rem;
         font-weight: 300;
         letter-spacing: 1.5px;
         text-align: center;
@@ -279,7 +279,7 @@
         gap: 5px;
         margin-top: 0.6rem;
         color: var(--text-dim);
-        font-size: 0.58rem;
+        font-size: 0.62rem;
         letter-spacing: 1px;
     }
 
@@ -315,7 +315,7 @@
         background: transparent;
         padding: 0.5rem 1.2rem;
         color: var(--text-dim);
-        font-size: 0.7rem;
+        font-size: 0.76rem;
         letter-spacing: 0.5px;
         text-align: left;
         transition:
@@ -337,7 +337,7 @@
     .nav-prefix {
         min-width: 14px;
         color: var(--purple);
-        font-size: 0.65rem;
+        font-size: 0.7rem;
         font-weight: 500;
     }
 
@@ -348,7 +348,7 @@
     .nav-arrow {
         margin-left: auto;
         color: var(--text-muted);
-        font-size: 0.6rem;
+        font-size: 0.64rem;
         opacity: 0;
         transition: opacity 0.1s;
     }
@@ -392,7 +392,7 @@
         align-items: center;
         gap: 0.3rem;
         color: var(--text-dim);
-        font-size: 0.62rem;
+        font-size: 0.68rem;
         letter-spacing: 1px;
     }
 
@@ -406,7 +406,7 @@
 
     .content-meta {
         color: var(--text-muted);
-        font-size: 0.58rem;
+        font-size: 0.62rem;
         letter-spacing: 1px;
     }
 
@@ -446,7 +446,7 @@
         border-bottom: 1px solid var(--border);
         padding-bottom: 0.6rem;
         color: var(--purple-bright);
-        font-size: 0.6rem;
+        font-size: 0.68rem;
         letter-spacing: 3.5px;
     }
 
@@ -461,7 +461,7 @@
         gap: 0.3rem;
         margin-bottom: 1.2rem;
         color: var(--text-dim);
-        font-size: 0.68rem;
+        font-size: 0.76rem;
     }
 
     .cmd-prompt .ps1 {
@@ -486,7 +486,7 @@
         max-width: 580px;
         margin-bottom: 1.4rem;
         color: var(--text);
-        font-size: 0.73rem;
+        font-size: 0.82rem;
         line-height: 1.9;
     }
 
@@ -512,13 +512,13 @@
     .info-label {
         margin-bottom: 0.25rem;
         color: var(--text-muted);
-        font-size: 0.55rem;
+        font-size: 0.6rem;
         letter-spacing: 2px;
     }
 
     .info-value {
         color: var(--white);
-        font-size: 0.7rem;
+        font-size: 0.78rem;
     }
 
     .info-value-success {
@@ -559,7 +559,7 @@
 
     .entry-title {
         color: var(--white);
-        font-size: 0.78rem;
+        font-size: 0.86rem;
         font-weight: 500;
         letter-spacing: 0.5px;
     }
@@ -569,14 +569,14 @@
         border: 1px solid var(--border);
         padding: 1px 6px;
         color: var(--text-dim);
-        font-size: 0.6rem;
+        font-size: 0.66rem;
         white-space: nowrap;
     }
 
     .entry-org {
         margin-bottom: 0.6rem;
         color: var(--purple-bright);
-        font-size: 0.67rem;
+        font-size: 0.75rem;
         letter-spacing: 0.5px;
     }
 
@@ -588,7 +588,7 @@
 
     .entry-desc {
         color: #666666;
-        font-size: 0.67rem;
+        font-size: 0.76rem;
         line-height: 1.8;
     }
 
@@ -629,7 +629,7 @@
         gap: 0.4rem;
         margin-bottom: 0.4rem;
         color: var(--white);
-        font-size: 0.73rem;
+        font-size: 0.82rem;
         font-weight: 500;
     }
 
@@ -637,7 +637,7 @@
         border: 1px solid var(--purple-dim);
         padding: 1px 5px;
         color: var(--purple-bright);
-        font-size: 0.55rem;
+        font-size: 0.6rem;
         letter-spacing: 1px;
     }
 
@@ -647,14 +647,14 @@
         gap: 0.35rem;
         margin-bottom: 0.55rem;
         color: var(--text-dim);
-        font-size: 0.58rem;
+        font-size: 0.65rem;
         letter-spacing: 0.5px;
     }
 
     .project-desc {
         margin-bottom: 0.75rem;
         color: #666666;
-        font-size: 0.64rem;
+        font-size: 0.74rem;
         line-height: 1.7;
     }
 
@@ -668,7 +668,7 @@
         border: 1px solid var(--border-bright);
         padding: 1px 6px;
         color: var(--text-dim);
-        font-size: 0.58rem;
+        font-size: 0.64rem;
         letter-spacing: 0.5px;
     }
 
@@ -684,7 +684,7 @@
     .skills-group-label {
         margin-bottom: 0.6rem;
         color: var(--purple-bright);
-        font-size: 0.57rem;
+        font-size: 0.64rem;
         letter-spacing: 2.5px;
     }
 
@@ -699,7 +699,7 @@
         background: transparent;
         padding: 3px 10px;
         color: var(--text);
-        font-size: 0.63rem;
+        font-size: 0.72rem;
         letter-spacing: 0.5px;
         transition:
             border-color 0.15s,
@@ -731,7 +731,7 @@
         background: var(--surface);
         padding: 0.65rem 0.9rem;
         color: var(--text);
-        font-size: 0.68rem;
+        font-size: 0.76rem;
         text-decoration: none;
         transition: border-color 0.15s;
     }
@@ -744,7 +744,7 @@
     .contact-label {
         min-width: 80px;
         color: var(--purple-bright);
-        font-size: 0.58rem;
+        font-size: 0.64rem;
         letter-spacing: 1.5px;
     }
 
@@ -818,7 +818,7 @@
         height: auto;
         min-height: 100vh;
         min-height: 100dvh;
-        font-size: 16px;
+        font-size: 17px;
         overflow: visible;
         padding: 0 0.75rem;
     }
